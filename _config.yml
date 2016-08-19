@@ -16,4 +16,5 @@ github_username: CoDataScience
 
 # Build settings
 markdown: kramdown
+exclude: ['LICENSE', 'README.md', 'Gemfile', 'Gemfile.lock']
 
