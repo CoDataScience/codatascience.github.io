@@ -1,52 +1,24 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Colorado Data Science Team</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Colorado Data Science Team</h1>
-      <h2 class="project-tagline"></h2>
-    </section>
-
-    <section class="main-content">
-
-<center><h2><b>Attention all</b><br>
-data scientists,<br>
-machine learners,<br>
-statisticians,<br>
-numerical analysts,<br>
-optimizers, and<br>
-number crunchers:</h2></center>
-
-<br><br>
-
-<b>Join</b> the new club (and optional 1–credit course) which will
-represent CU Boulder in machine learning competitions
-as seen on <a href="http://kaggle.com">Kaggle</a> and other platforms. Come to our first
-official meeting on <b>Friday, August 26</b> at <b>5:00pm</b> in
-<b>ECCR 151</b>, to discuss the logistics, goals, scope, leadership, structure, and just to get involved.
-This will be an incredible opportunity to get hands-on
-experience applying modern machine learning tools to
-real problems with real data, not to mention a lot of fun
-(and maybe even $).
-
-<br><br>
-Sign up <a href="https://goo.gl/forms/7VrM8xuJEYxKUYeB3">here</a>!
-
-      <footer class="site-footer">
-
-        
-      </footer>
-
-    </section>
-
-  
-  </body>
-</html>
+---
+layout: default
+title: Home
+---
+<div class="jumbotron">
+  <h2>About the Colorado Data Science Team</h2>
+  <p>Join the new club (and 1–credit course) which will represent CU Boulder in machine learning competitions as seen on Kaggle and other platforms. Come to our first official meeting on <b>Friday, August 26 at 5:00pm in ECCR 151</b>, to discuss the logistics, the goals, the scope, the leadership, the structure, and just to get involved. This will be an incredible opportunity to get hands-on experience applying modern machine learning tools to real problems with real data, not to mention a lot of fun (and maybe even $).</p>
+  <p><a class="btn btn-primary btn-lg" href="https://goo.gl/forms/7VrM8xuJEYxKUYeB3" role="button" target="_blank">Signup Here</a></p>
+</div>
+<h3 class="page-heading">Recent Blog Posts</h3>
+<ul class="post-list">
+{% for post in site.posts %}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        </div>
+        <div class="panel-body">
+            <h4>Post Preview</h4>
+            {{ post.excerpt }}
+        </div>
+        <div class="panel-footer">Posted on {{ post.date | date: "%b %-d, %Y" }}</div>
+    </div>
+{% endfor %}
+</ul>

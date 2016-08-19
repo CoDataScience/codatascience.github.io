@@ -1,0 +1,68 @@
+---
+---
+
+.cu-header {
+    height: 80px;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:active {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.navbar-nav li {
+    a {
+        color: #d0b87c !important;
+        text-decoration: none;
+    }
+    a:active {
+        color: #d0b87c !important;
+        text-decoration: none;
+    }
+    a:hover {
+        color: white !important;
+        text-decoration: none;
+    }
+}
+
+.cu-header-logo {
+    margin: 10px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.header-color-wrap {
+    background-color: black;
+}
+
+.gold-border {
+    border-top: 3px solid #d0b87c;
+}
+
+.navbar-inverse {
+    background-color: #444;
+}
+
+.cu-footer {
+    background-color: #444;
+    min-height: 100px;
+}
+
+.content {
+    min-height: 600px;
+}
+
+.panel-title a {
+    color: #d0b87c;
+}
