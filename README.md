@@ -11,7 +11,7 @@ For quick instructions to get setup, do the following.
 1. Clone repository with `git clone git@github.com:CoDataScience/codatascience.github.io.git`
 2. Ensure you have Ruby 2.0 or higher installed with `ruby --version`
 3. Run `gem install bundler`
-4. Run `bundle install`
+4. Run `bundle install` (from the repository directory)
 5. To run a local development version of the site run `bundle exec jekyll serve -w`
 
 Any changes committed to master will trigger a rebuild and deploy of the website. Confirmation of the
