@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+---
+layout: raw
+title: baseline in rate-my-professor
+---
 <html>
 <head><meta charset="utf-8" />
 <title>baseline</title>
