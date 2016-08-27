@@ -14,7 +14,7 @@ You can find the first internal competition at [https://inclass.kaggle.com/c/rat
 It will require you to signup with your @colorado.edu email address
 
 Our github page is at [github.com/codatascience/rate-my-professor](https://github.com/CoDataScience/rate-my-professor) where you can find a demonstration
-[ipython notebook](/notebooks/rate-my-professor/baseline.html)
+[ipython notebook](/notebooks/rate-my-professor/baselinel)
 
 ### Meeting Slides
 
