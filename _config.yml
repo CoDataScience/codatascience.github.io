@@ -16,5 +16,10 @@ github_username: CoDataScience
 
 # Build settings
 markdown: kramdown
-exclude: ['LICENSE', 'README.md', 'Gemfile', 'Gemfile.lock']
+exclude: ['LICENSE', 'README.md', 'Gemfile', 'Gemfile.lock', "_notebooks/repositories"]
+
+collections:
+  notebooks:
+    output: true
+    permalink: /notebooks/:path/
 
