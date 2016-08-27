@@ -6,7 +6,7 @@ categories: meeting
 ---
 
 Thank you everyone for coming to the first Colorado data science team meeting. We are excited for a great semester. You will find
-various resourced from the meeting below.
+various resources from the meeting below.
 
 ### Kaggle Competition
 
