@@ -1,6 +1,7 @@
 ---
 layout: raw
 title: baseline in rate-my-professor
+repository: rate-my-professor
 ---
 <html>
 <head><meta charset="utf-8" />

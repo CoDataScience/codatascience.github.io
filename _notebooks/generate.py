@@ -22,7 +22,8 @@ def convert(repository, notebook):
     )
     with open('{repository}/{notebook}_tmp.html'.format(repository=repository, notebook=notebook)) as tmp:
         with open('{repository}/{notebook}.md'.format(repository=repository, notebook=notebook), 'w') as f:
-            f.write('---\nlayout: raw\ntitle: {notebook} in {repository}\n---\n'.format(repository=repository, notebook=notebook))
+            f.write('---\nlayout: raw\ntitle: {notebook} in {repository}\nrepository: {repository}\n---\n'.format(
+                repository=repository, notebook=notebook))
             first = True
             for line in tmp:
                 if first:
