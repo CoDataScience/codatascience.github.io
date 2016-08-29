@@ -37,7 +37,5 @@ Stay tuned for more information, and please **[sign up](https://goo.gl/forms/7Vr
 
 ### Treasurer: Apoorva
 
-### Faculty Advisor: Rafael Frongillo
-
-[http://www.cs.colorado.edu/~rafr5066/](http://www.cs.colorado.edu/~rafr5066/)
+### Faculty Advisor: [Rafael Frongillo](http://www.cs.colorado.edu/~raf/)
 
