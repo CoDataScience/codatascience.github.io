@@ -18,6 +18,7 @@ github_username: CoDataScience
 markdown: kramdown
 include: ['slides']
 exclude: ['LICENSE', 'README.md', 'Gemfile', 'Gemfile.lock']
+permalink: '/:year/:month/:day/:title.html'
 
 collections:
   notebooks:
