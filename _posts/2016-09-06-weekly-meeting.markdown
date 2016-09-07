@@ -15,7 +15,7 @@ excerpt: Today Stephen Becker gave us a summary of his research and Pedro Rodrig
 
 ### Survey of Machine Learning Methods by [Pedro Rodriguez](http://pedrorodriguez.io)
 
-[Jupyter Notebook from Survey of ML Models](http://localhost:4000/notebooks/rate-my-professor/ml-models/)
+[Jupyter Notebook from Survey of ML Models](/notebooks/rate-my-professor/ml-models/)
 
 [Code on Github](https://github.com/CoDataScience/rate-my-professor/blob/master/notebooks/ml-models.ipynb)
 
