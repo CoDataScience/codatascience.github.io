@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Calendar
+title: Calendar | codatasciece.github.io | CU Boulder
 permalink: /calendar/
 ---
 

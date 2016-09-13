@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Weekly Meeting 9/6/2016"
+description: Weekly Meeting 9/6/2016 | codatasciece.github.io | CU Boulder
 date:   2016-09-06 00:00:00 -0000
 categories: meeting, weekly, machine learning, model
 excerpt: Today Stephen Becker gave us a summary of his research and Pedro Rodriguez presented a survey of machine learning methods

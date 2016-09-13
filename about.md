@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About | codatasciece.github.io | CU Boulder
 permalink: /about/
 ---
 

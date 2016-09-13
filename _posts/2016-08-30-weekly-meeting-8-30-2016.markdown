@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Weekly Meeting 8/30/2016"
+description:  Weekly Meeting 8/30/2016 | codatasciece.github.io | CU Boulder
 date:   2016-08-30 00:00:00 -0000
 categories: meeting, weekly, nlp
 excerpt: Today we kickoff the first meet a data scientist series, review some basic NLP, and start our first Kaggle competition

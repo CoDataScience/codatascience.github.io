@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Data Science Team Course"
+description: Data Science Team Course | codatasciece.github.io | CU Boulder
 date:   2016-08-29 00:00:00 -0000
 categories: meeting
 ---

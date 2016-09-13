@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "First Data Science Team Meeting"
+description: First Data Science Team Meeting | codatasciece.github.io | CU Boulder
 date:   2016-08-26 00:00:00 -0000
 categories: meeting
 ---
-
 Thank you everyone for coming to the first Colorado data science team meeting. We are excited for a great semester. You will find
 various resources from the meeting below.
 

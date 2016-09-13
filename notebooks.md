@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Notebooks
+title: Notebooks | codatasciece.github.io | CU Boulder
 permalink: /notebooks/
 ---
 
