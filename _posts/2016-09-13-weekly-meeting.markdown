@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Weekly Meeting 9/13/2016"
-description: Weekly Meeting 9/13/2016 | codatasciece.github.io | CU Boulder
+description: Weekly Meeting 9/13/2016
 date:   2016-09-13 00:00:00 -0000
 categories: meeting, weekly, machine learning, model
 excerpt: Today Jordan Boyd-Graber gave us a high-level overview of topic models, and Sarah Withee presented on Support Vector Machines (SVMs)

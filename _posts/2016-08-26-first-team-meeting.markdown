@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First Data Science Team Meeting"
-description: First Data Science Team Meeting | codatasciece.github.io | CU Boulder
+description: First Data Science Team Meeting
 date:   2016-08-26 00:00:00 -0000
 categories: meeting
 ---

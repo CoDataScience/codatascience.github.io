@@ -1,6 +1,11 @@
 ---
 ---
 
+
+html, body {
+    height: 100%;
+}
+
 .cu-header {
     height: 80px;
     a {
@@ -56,7 +61,24 @@
 
 .cu-footer {
     background-color: #444;
-    min-height: 100px;
+    height: 150px;
+    padding-top: 20px;
+    a {
+        color: #d0b87c !important;
+        text-decoration: none;
+    }
+    a:active {
+        color: #d0b87c !important;
+        text-decoration: none;
+    }
+    a:hover {
+        color: white !important;
+        text-decoration: none;
+    }
+}
+
+.push {
+  height: 150px;
 }
 
 .content {
@@ -66,3 +88,10 @@
 .panel-title a {
     color: #d0b87c;
 }
+
+
+.wrapper {
+  min-height: 100%;
+  margin: 0 auto -150px;
+}
+
