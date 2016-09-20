@@ -9,8 +9,6 @@ The Colorado Data Science Team is a team of data scientists, machine learners, n
 Stay tuned for more information, and please **[sign up](https://goo.gl/forms/7VrM8xuJEYxKUYeB3)** for the team.
 
 
-### Co-Presidents: Monal Narasimhamurthy and Brad Gordon
-
 ### Team Captain: Pedro Rodriguez
 
 <div>
@@ -31,6 +29,8 @@ Stay tuned for more information, and please **[sign up](https://goo.gl/forms/7Vr
 </div>
 <div class="clearfix"></div>
 </div>
+
+### Co-Presidents: Monal Narasimhamurthy and Brad Gordon
 
 
 ### Communications Officer: Nicolas Metts
