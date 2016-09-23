@@ -95,3 +95,22 @@ html, body {
   margin: 0 auto -150px;
 }
 
+.pagination {
+    width: 100%;
+    font-size: 1.2em;
+}
+.prevLink {
+    float: left;
+    width: 50%;
+}
+.nextLink {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.previous:before {
+    content: '\00ab\00a0';
+}
+.next:after {
+    content: '\00a0\00bb';
+}

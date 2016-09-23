@@ -25,3 +25,8 @@ collections:
     output: true
     permalink: /notebooks/:path/
 
+
+# Gems
+gems: [jekyll-paginate]
+paginate: 2
+paginate_path: '/blog/page:num/'
