@@ -14,7 +14,7 @@ title: Home
 </div>
 <h3 class="page-heading">Recent News</h3>
 <ul class="post-list">
-{% for post in site.posts %}
+{% for post in paginator.posts limit:4 %}
     <div class="panel panel-default">
         <div class="panel-heading">
             <h3 class="panel-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
@@ -27,3 +27,31 @@ title: Home
     </div>
 {% endfor %}
 </ul>
+
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+   <p class="prevLink"> <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer Posts</a> </p>
+  {% else %}
+   <p class="prevLink">  <span>&laquo; Newer Posts</span> </p>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <p class="nextLink"> <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &raquo;</a> </p>
+  {% else %}
+    <p class="nextLink"> <span>Older Posts &raquo;</span> </p>
+  {% endif %}
+</div>
+{% endif %}
+
