@@ -50,7 +50,30 @@ The Colorado Data Science Team is a team of data scientists, machine learners, n
 <div class="clearfix"></div>
 </div>
 
-### Co-Presidents: Monal Narasimhamurthy and Brad Gordon
+### Co-Presidents: 
+
+### Monal Narasimhamurthy
+
+### Brad Gordon
+
+<div>
+<div class="pull-left">
+<img alt="Brad Gordon" src="/images/brad.jpg" style="height:100px;width:100px">
+</div>
+<div class="pull-left">
+
+<ul>
+<li>Full-time software engineer at <a href="fusionbox.com" target="_blank">Fusionbox</a> with a passion for computational statistics and machine learning</li>
+<li>Attends CSCI and APPM courses at CU on a part-time basis</a></li>
+<li>Systems minded data scientist</li>
+<li>Graduated from Grinnell College with a dual MA in Mathematics and Philosophy</li>
+<li>Ardent consumer of political data (polls, economic/social policy analysis, you name it)</li>
+</ul>
+
+</div>
+<div class="clearfix"></div>
+</div>
+
 
 
 ### Communications Officer: Nicolas Metts
