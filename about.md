@@ -34,6 +34,12 @@ Stay tuned for more information, and please **[sign up](https://goo.gl/forms/7Vr
 
 
 ### Communications Officer: Nicolas Metts
+* 2nd year PhD student advised by Christine Lv.
+* Primarily interested in classification with unbalanced data, but also interested in music
+information retrieval and network science applications to social sciences
+* Data scientist at CableLabs in Louisville
+* [LinkedIn](https://www.linkedin.com/in/nicolas-metts-16b92a90)
+* Musician, father, husband, and amateur chef
 
 ### Treasurer: Apoorva
 
