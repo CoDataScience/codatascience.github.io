@@ -53,6 +53,10 @@ CODATA was inspired by our sister team, the Michigan Data Science Team (MDST).  
 
 ### Co-Presidents: 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0147ac6... Updated about page
 ### Brad Gordon
 
 <div>
@@ -80,7 +84,6 @@ CODATA was inspired by our sister team, the Michigan Data Science Team (MDST).  
 <img alt="Monal Narasimhamurthy" src="/images/monal.jpg" style="height:100px;width:100px">
 </div>
 <div class="pull-left">
-
 <ul>
 <li>First year PhD student, advised by Prof Matthew Hammer</li>
 <li>Member of the Programming Languages and Verification group at CU Boulder (CUPLV)</li>
