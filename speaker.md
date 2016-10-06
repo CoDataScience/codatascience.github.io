@@ -5,6 +5,7 @@ title: Home
 <h1>Speakers</h1>
 
 
+
 <div class="pull-left">
 {% for speaker in site.speakers %}
 	<div class="panel panel-default">
@@ -20,4 +21,3 @@ title: Home
    	</div>
 {% endfor %}
 </div>
-
