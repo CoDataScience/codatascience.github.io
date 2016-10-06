@@ -25,7 +25,6 @@ collections:
     output: true
     permalink: /notebooks/:path/
 
-collections:
   speakers:
     output: true
     permalink: /speakers/:path/
