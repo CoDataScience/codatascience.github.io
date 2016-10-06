@@ -5,8 +5,9 @@ title: Home
 <h1>Speakers</h1>
 
 
-{% for speaker in site.speakers %}
+
 <div class="pull-left">
+{% for speaker in site.speakers %}
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h3> <a href="{{speaker.website}}"> {{speaker.speaker}} </a></h3> 
@@ -18,5 +19,5 @@ title: Home
    			<div class="col-md-8">{{ speaker.output }}</div>
    		</div>
    	</div>
-</div>
 {% endfor %}
+</div>
