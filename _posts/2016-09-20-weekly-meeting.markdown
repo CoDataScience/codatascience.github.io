@@ -5,6 +5,7 @@ description: Weekly Meeting 9/20/2016
 date:   2016-09-20 00:00:00 -0000
 categories: meeting, weekly, machine learning, model
 excerpt: Jake Abernethy spoke to us about the Michigan Data Science Team, our top Rate My Professors competition teams gave presentations on their strategies, and we discussed competitions going forward.
+tags: [Machine Learning, Data Science, Data Scientist, Oracle]
 ---
 
 ## Agenda

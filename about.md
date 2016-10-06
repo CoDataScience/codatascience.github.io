@@ -28,6 +28,7 @@ The Colorado Data Science Team is a team of data scientists, machine learners, n
 
 <!--End mc_embed_signup-->
 
+CODATA was inspired by our sister team, the Michigan Data Science Team (MDST).  We owe our initial success to the generosity and guidance of the team and its faculty advisor, Jake Abernethy.
 
 ### Team Captain: Pedro Rodriguez
 
@@ -50,8 +51,48 @@ The Colorado Data Science Team is a team of data scientists, machine learners, n
 <div class="clearfix"></div>
 </div>
 
-### Co-Presidents: Monal Narasimhamurthy and Brad Gordon
+### Co-Presidents: 
 
+
+### Brad Gordon
+
+<div>
+<div class="pull-left">
+<img alt="Brad Gordon" src="/images/brad.jpg" style="height:100px;width:100px">
+</div>
+<div class="pull-left">
+
+<ul>
+<li>Full-time software engineer at <a href="http://www.fusionbox.com" target="_blank">Fusionbox</a> with a passion for computational statistics and machine learning</li>
+<li>Attends CSCI and APPM courses at CU on a part-time basis</li>
+<li>Systems minded data scientist</li>
+<li>Graduated from Grinnell College with a dual MA in Mathematics and Philosophy</li>
+<li>Ardent consumer of political data (polls, economic/social policy analysis, you name it)</li>
+</ul>
+
+</div>
+<div class="clearfix"></div>
+</div>
+
+### Monal Narasimhamurthy
+
+<div>
+<div class="pull-left">
+<img alt="Monal Narasimhamurthy" src="/images/monal.jpg" style="height:100px;width:100px">
+</div>
+<div class="pull-left">
+
+<ul>
+<li>First year PhD student, advised by Prof Matthew Hammer</li>
+<li>Member of the Programming Languages and Verification group at CU Boulder (CUPLV)</li>
+<li>Research focus on Programming Languages and Incremental Computation</li>
+<li>Worked or interned previously at Amazon, Media.net and Apigee</li>
+<li>Code at  <a href="https://github.com/monal" target="_blank">github.com/monal</a>, <a href="https://www.linkedin.com/in/monal-narasimhamurthy" target="_blank">LinkedIn</a></li>
+</ul>
+
+</div>
+<div class="clearfix"></div>
+</div>
 
 ### Communications Officer: Nicolas Metts
 * 2nd year PhD student advised by Christine Lv.

@@ -5,6 +5,7 @@ description:  Weekly Meeting 8/30/2016
 date:   2016-08-30 00:00:00 -0000
 categories: meeting, weekly, nlp
 excerpt: Today we kickoff the first meet a data scientist series, review some basic NLP, and start our first Kaggle competition
+tags: [Rate My Professor, Natural Language Processing, Kaggle, Slack, Data Scientist]
 ---
 
 ## Agenda
