@@ -28,6 +28,7 @@ The Colorado Data Science Team is a team of data scientists, machine learners, n
 
 <!--End mc_embed_signup-->
 
+CODATA was inspired by our sister team, the Michigan Data Science Team (MDST).  We owe our initial success to the generosity and guidance of the team and its faculty advisor, Jake Abernethy.
 
 ### Team Captain: Pedro Rodriguez
 
