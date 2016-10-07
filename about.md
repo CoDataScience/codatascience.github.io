@@ -53,7 +53,6 @@ CODATA was inspired by our sister team, the Michigan Data Science Team (MDST).  
 
 ### Co-Presidents: 
 
-
 ### Brad Gordon
 
 <div>
