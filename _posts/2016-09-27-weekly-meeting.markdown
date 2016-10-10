@@ -5,6 +5,7 @@ description: Weekly Meeting 9/27/2016
 date:   2016-09-27 00:00:00 -0000
 categories: meeting, weekly, machine learning, model
 excerpt: Dirk Grunwald spoke to us about the DARPA spectrum challenge, CU Professor Brian Keegan presented his research on breaking news events' effect on Wikipedia collaboration networks, and our own Karthik Kannan gave team members a crash course in scikit-learn.
+image: dirk.png
 ---
 
 ## Agenda
