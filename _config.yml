@@ -17,7 +17,7 @@ github_username: CoDataScience
 # Build settings
 markdown: kramdown
 include: ['slides']
-exclude: ['LICENSE', 'README.md', 'Gemfile', 'Gemfile.lock']
+exclude: ['LICENSE', 'README.md', 'Gemfile', 'Gemfile.lock', 'PULL_REQUEST_TEMPLATE.md']
 permalink: '/:year/:month/:day/:title.html'
 
 collections:
