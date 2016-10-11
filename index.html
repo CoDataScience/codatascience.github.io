@@ -3,6 +3,7 @@ layout: default
 title: Home
 carousel:
   - image: /images/competition/oracle.png
+<<<<<<< HEAD
     caption: "Oracle Dataset" 
     alt: Oracle Competition
     link: 
@@ -14,6 +15,15 @@ carousel:
     link: 2016/08/26/first-team-meeting.html
     competition: Past
     start_end_date: 26th August 2016 to 17th September 2016
+=======
+    caption: "Oracle Competition" 
+    alt: Oracle Competition
+    link: 
+  - image: /images/competition/ratemyprofessor.png
+    caption: "Rate My Professor Competition"
+    alt: Rate My Professor Competition
+    link: 2016/08/26/first-team-meeting.html
+>>>>>>> upstream/master
 ---
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -34,11 +44,17 @@ carousel:
     {% else %}
         <div class="item">
     {% endif %}
+<<<<<<< HEAD
       <div class="header bg-primary"> {{ info.start_end_date }} </div>
       <a href="{{info.link}}">
       <center><img src="{{ info.image }}" alt="{{ info.alt }}" style="height:200px;"></center>
       </a>
       <div class="header row bg-danger"><center> {{info.competition}} competition : <a href="{{info.link}}">{{ info.caption }}</a></center></div>
+=======
+      <a href="{{info.link}}">
+      <center><img src="{{ info.image }}" alt="{{ info.alt }}" style="height:200px;"></center>
+      </a>
+>>>>>>> upstream/master
       <!-- <div class="carousel-caption">
         <h3>{{ info.caption }}</h3>
       </div> -->
