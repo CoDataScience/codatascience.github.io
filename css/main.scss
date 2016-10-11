@@ -34,7 +34,7 @@ html, body {
         text-decoration: none;
     }
     a:hover {
-        color: white !important;
+        /* color: white !important; */
         text-decoration: none;
     }
 }
@@ -119,6 +119,6 @@ html, body {
 
 @media (min-width: 992px) {
   .col-md-height {
-    height: 200px;
+    height: 125px;
   }
 }
