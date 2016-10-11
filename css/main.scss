@@ -115,3 +115,10 @@ html, body {
 .next:after {
     content: '\00a0\00bb';
 }
+
+
+@media (min-width: 992px) {
+  .col-md-height {
+    height: 200px;
+  }
+}

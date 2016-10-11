@@ -3,13 +3,17 @@ layout: default
 title: Home
 carousel:
   - image: /images/competition/oracle.png
-    caption: "Oracle Competition" 
+    caption: "Oracle Dataset" 
     alt: Oracle Competition
     link: 
+    competition: Current
+    start_end_date: 11th October 2016 to 8th November 2016
   - image: /images/competition/ratemyprofessor.png
-    caption: "Rate My Professor Competition"
+    caption: "Rate My Professor Dataset"
     alt: Rate My Professor Competition
     link: 2016/08/26/first-team-meeting.html
+    competition: Past
+    start_end_date: 26th August 2016 to 17th September 2016
 ---
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -30,9 +34,11 @@ carousel:
     {% else %}
         <div class="item">
     {% endif %}
+      <div class="header bg-primary"> {{ info.start_end_date }} </div>
       <a href="{{info.link}}">
       <center><img src="{{ info.image }}" alt="{{ info.alt }}" style="height:200px;"></center>
       </a>
+      <div class="header row bg-danger"><center> {{info.competition}} competition : <a href="{{info.link}}">{{ info.caption }}</a></center></div>
       <!-- <div class="carousel-caption">
         <h3>{{ info.caption }}</h3>
       </div> -->
@@ -79,10 +85,11 @@ carousel:
 <form action="//gitub.us14.list-manage.com/subscribe/post?u=bdb5f790dc5db01b13ba0b7e5&amp;id=acfbcbddec" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<label for="mce-EMAIL">Learn more by subscribing to our mailing list</label>
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+	<input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bdb5f790dc5db01b13ba0b7e5_acfbcbddec" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </br>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-lg btn-block"></div>
     </div>
 </form>
 </div>
@@ -97,7 +104,7 @@ carousel:
   <div class="row">
     <div class="col-md-4 well">
     <h4>Meet a Data Scientist Series</h4>
-    <ul>
+    <ul class="text-justify">
       <li>Every week, we begin our team meeting by hearing from a practicing data scientist or data science researcher.</li>
       <li>Usually 5 to 15 minutes long, these talks provide Colorado Data Science Team members an idea of what data science looks like in practice, beyond classroom projects and competitions.</li>
       <li>Researchers often share what techniques they are developing, or how they use existing techniques to advance scientific knowledge or engineering practice; practicing data scientists in industry often share the techniques and algorithms that they find to be most useful in their work, and their experiences about what works and when it works.</li>
@@ -123,14 +130,21 @@ carousel:
         <div class="panel-heading">
             <h3 class="panel-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
         </div>
-        <div class="panel-body">
+        <div class="panel-body col-md-height">
+          <div class="row">
           {% if post.image %}
-          <center><img alt="{{ post.title }}" src="/images/speakers/{{post.image}}" style="height:100px;width:100px"  class="thumbnail"></center>
+            <center><img alt="{{ post.title }}" src="/images/speakers/{{post.image}}" style=" height:100px;width:100px;padding: 1em"  class="pull-left img-circle"></center>
+            <div class="text-justify" style="padding: 1em">{{ post.excerpt }}</div>
+            {% else %}
+            <div class="col-md-12 text-justify" style="padding: 1em">{{ post.excerpt }}</div>
           {% endif %}
-          <div>{{ post.excerpt }}</div>
-          <div><a href="{{ post.url | prepend: site.baseurl }}">Read More</a></div>
+          </div>
+          
+          
         </div>
-        <div class="panel-footer">Posted on {{ post.date | date: "%b %-d, %Y" }}</div>
+        <div class="panel-footer">Posted on {{ post.date | date: "%b %-d, %Y" }}
+            <div class="pull-right"><a href="{{ post.url | prepend: site.baseurl }}">Read More</a></div>
+        </div>
     </div>
     </div>
     {% if thecycle == 'even' %}
