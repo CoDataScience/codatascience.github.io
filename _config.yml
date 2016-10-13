@@ -35,6 +35,6 @@ collections:
 
 # Gems
 gems: [jekyll-paginate]
-paginate: 4
+paginate: 8
 paginate_path: '/blog/page:num/'
 
