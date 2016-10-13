@@ -1,6 +1,7 @@
 ---
 layout: default
-name: Oracle Data Cloud
+name: Oracle Data Cloud Audience
+title: Oracle Audience Competition
 ---
 
 <div class="row"><div class="col-md-4 col-md-offset-4"><img src="/images/competition/oracle.png" height="100"></div></div>
