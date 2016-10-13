@@ -9,7 +9,7 @@ name: Oracle Data Cloud
 
 In this competition your objective is to use prior purchase data to maximize future revenue.
 
-Suppose you are run a company called SuperMegaCorp which has enough money to send 100,000 advertisements per month to prospective customers. Your database has tens of millions of customers, but for each month you only look at roughly 1 million customers before deciding which 100,000 you send advertisements to.
+Suppose you are run a company called SuperMegaCorp which has enough money to send 100,000 advertisements per month to prospective customers. Your database has tens of millions of customers, but for each month you only look at roughly 1 million customers before deciding which 100,000 you send advertisements to. In industry terms you are building an audience for your advertising campaign.
 
 ## Data and Task Description
 
