@@ -38,3 +38,7 @@ gems: [jekyll-paginate]
 paginate: 8
 paginate_path: '/blog/page:num/'
 
+
+# Google services
+google_analytics: UA-85982103-1
+
