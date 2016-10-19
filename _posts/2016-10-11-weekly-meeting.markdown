@@ -10,8 +10,8 @@ image: alex_sadovsky.jpg
 
 ## Agenda
 
-* Meet a data scientist: Oracle Data Cloud Head of Data Science Alex Sadovsky gave us the details for CODATA's very first sponsored competition. Team members will use financial transaction data to predict the best customers to advertise to.
-* Team Captain Pedro Rodriguez spoke of his plan to draft an application to be funded for the [Alexa Prize](https://developer.amazon.com/alexaprize). If you would like to be a part of that effort, reach out to him on our Slack channel.
+* Meet a data scientist: [Oracle Data Cloud](https://cloud.oracle.com/data-cloud) Head of Data Science Alex Sadovsky gave us the details for CODATA's very first sponsored competition. Team members will use financial transaction data to predict the best customers to advertise to.
+* Team Captain [Pedro Rodriguez](https://pedrorodriguez.io) spoke of his plan to draft an application to be funded for the [Alexa Prize](https://developer.amazon.com/alexaprize). If you would like to be a part of that effort, reach out to him on our Slack channel.
 
 #### Slides
 

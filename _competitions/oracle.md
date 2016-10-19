@@ -12,6 +12,12 @@ In this competition your objective is to use prior purchase data to maximize fut
 
 Suppose you are run a company called SuperMegaCorp which has enough money to send 100,000 advertisements per month to prospective customers. Your database has tens of millions of customers, but for each month you only look at roughly 1 million customers before deciding which 100,000 you send advertisements to. In industry terms you are building an audience for your advertising campaign.
 
+This competition is sponsored by [Oracle Data Cloud](https://cloud.oracle.com/data-cloud)
+
+## About Oracle Data Cloud
+
+While advertising and media continue to grow digitally and revolutionize marketing “online”, 93% of all consumer spending is still happening “offline”.  Marketers want to find buyers of their products - not just “clickers”.  Oracle Data Cloud is leveraging the power of big data, technology and predictive analytics to fuse offline sales with digital media.  By helping marketers build, reach and measure purchase-based audiences, ODC serves as core marketing infrastructure for a data-driven world.  The biggest advertisers and social media platforms in the world use these methods to help better understand and plan their advertising strategies.
+
 ## Data and Task Description
 
 Each row of the data represents one "household". You can think of this as a representation of all the people and devices which live at a certain address. Each row contains a vector of sparse features representing data such as past transactional behavior and demographics. More details about these features may be provided, but for now this is all you know. Finally, each row contains the amount of money spent by the household in response to advertising.
@@ -36,9 +42,9 @@ Each file is a compressed gzip archive which can be decompressed using `tar -xzv
 Each row contains the household id, the amount spent by the household, the total number of features (constant across everything) and the sparse vector of features. Below is each feature labeled and an example
 
 ```
-u’(<household id>, <spend>, (<total features>, [(<feature idx>, <feature value>), …]))'
+’(<household id>, <spend>, (<total features>, [(<feature idx>, <feature value>), …]))'
 
-u’(36839559, 0.0, (133531, [(0, 0.0040397762585456807), (144, 0.031645569620253167),…]))'
+’(36839559, 0.0, (133531, [(0, 0.0040397762585456807), (144, 0.031645569620253167),…]))'
 
 ```
 
