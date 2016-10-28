@@ -140,13 +140,18 @@ carousel:
             <center><img alt="{{ post.title }}" src="/images/speakers/{{post.image}}" style=" height:100px;width:100px;padding: 1em"  class="pull-left img-circle"></center>
             <div class="text-justify" style="padding-left: 1em;padding-right: 1em">{{ post.excerpt }}</div>
             {% else %}
-            <div class="col-md-12 col-sm-12 col-xs-12 text-justify" style="padding-left: 1em;padding-right: 1em">{{ post.excerpt }}</div>
+            <div class="col-md-12 col-sm-12 col-xs-12 text-justify" style="padding-left: 1em;padding-right: 1em"> {{ post.excerpt }} 
+            </div>
+
           {% endif %}
           </div>
           
           
         </div>
-        <div class="panel-footer">Posted on {{ post.date | date: "%b %-d, %Y" }}
+        <div class="panel-footer">Posted on {{ post.date | date: "%b %-d, %Y" }} 
+          {% if post.notebook %}
+           | <a href="{{ post.notebook }}"> Notebook </a>
+          {% endif %}
             <div class="pull-right"><a href="{{ post.url | prepend: site.baseurl }}">Read More</a></div>
         </div>
     </div>
