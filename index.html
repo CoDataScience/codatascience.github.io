@@ -129,7 +129,7 @@ carousel:
     {% if thecycle == 'odd' %}
     <div class="row">
     {% endif %}
-    <div class="col-md-6 col-sm-6">
+    <div class="col-md-6">
     <div class="panel panel-default" style="width: 100%;">
         <div class="panel-heading">
             <h3 class="panel-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
@@ -150,7 +150,9 @@ carousel:
         </div>
         <div class="panel-footer">Posted on {{ post.date | date: "%b %-d, %Y" }} 
           {% if post.notebook %}
-           | <a href="{{ post.notebook }}"> Notebook </a>
+          {% for info in post.notebook %}
+           | <a href="{{ info.link }}"> {{info.name}} </a>
+          {% endfor %}
           {% endif %}
             <div class="pull-right"><a href="{{ post.url | prepend: site.baseurl }}">Read More</a></div>
         </div>
