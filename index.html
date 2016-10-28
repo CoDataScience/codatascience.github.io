@@ -17,13 +17,13 @@ carousel:
 ---
 
 <div class="row">
-  <div class="col-md-12"><div class="alert alert-info" role="alert">
+  <div class="col-md-12 col-sm-12 col-xs-12"><div class="alert alert-info" role="alert">
       We are pleased to announce the <b style="text-decoration:underline"><a href="/competitions/oracle/">Oracle Audience Competition sponsored by Oracle Data Cloud! Click here for details.</a></b>
     </div></div>
 </div>
 
 <div class="row">
-  <div class="col-md-12">
+  <div class="col-md-12 col-sm-12 col-xs-12">
     <div class="jumbotron" style="padding-top:10px;padding-bottom:10px;">
       <p>
         The Colorado Data Science Team
@@ -46,13 +46,13 @@ carousel:
 
 <div class="row" style="padding-bottom: 1em">
   <!-- Wrapper for slides -->
-  <div class="col-md-4 text-justify">
+  <div class="col-md-4 col-sm-4 col-xs-4 text-justify">
     <h4>Meet a Data Scientist Series</h4>
 
     <p>Every week, we begin our team meeting by hearing from a practicing data scientist or data science researcher.</p>
     If you are a data scientist (broadly construed) and believe a presentation on your current work would be a good fit for the Colorado Data Science Team, please reach out to the leadership team at codata@colorado.edu
   </div>
-  <div class="col-md-4">
+  <div class="col-md-4 col-sm-4 col-xs-4">
     <center><h4>Competitions</h4></center>
   <div class="carousel-inner" role="listbox">
     {% if page.carousel %}
@@ -85,7 +85,7 @@ carousel:
   </a>
   </div>
 
-  <div class="col-md-4">
+  <div class="col-md-4 col-sm-4 col-xs-4">
     <center>
     <!-- Begin MailChimp Signup Form -->
   <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
@@ -113,7 +113,7 @@ carousel:
 
 
 
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <center><h3>Recent News</h3></center>
     <!-- <div class="col-sm-4">
@@ -122,25 +122,25 @@ carousel:
     <div class="col-sm-4">
       One of three columns
     </div> -->
-    <div class="col-md-12">
+    <div class="col-md-12 col-sm-12 col-xs-12">
     
     {% for post in paginator.posts limit:6 %}
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if thecycle == 'even' %}
-      <div class="row">
+    {% if thecycle == 'odd' %}
+    <div class="row">
     {% endif %}
-    <div class="col-md-6">
-    <div class="panel panel-default">
+    <div class="col-md-6 col-sm-6">
+    <div class="panel panel-default" style="width: 100%;">
         <div class="panel-heading">
             <h3 class="panel-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
         </div>
-        <div class="panel-body col-md-height">
+        <div class="panel-body">
           <div class="row">
           {% if post.image %}
             <center><img alt="{{ post.title }}" src="/images/speakers/{{post.image}}" style=" height:100px;width:100px;padding: 1em"  class="pull-left img-circle"></center>
             <div class="text-justify" style="padding-left: 1em;padding-right: 1em">{{ post.excerpt }}</div>
             {% else %}
-            <div class="col-md-12 text-justify" style="padding-left: 1em;padding-right: 1em">{{ post.excerpt }}</div>
+            <div class="col-md-12 col-sm-12 col-xs-12 text-justify" style="padding-left: 1em;padding-right: 1em">{{ post.excerpt }}</div>
           {% endif %}
           </div>
           
