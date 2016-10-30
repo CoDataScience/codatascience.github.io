@@ -14,16 +14,19 @@ carousel:
     link: 2016/08/26/first-team-meeting.html
     competition: Past
     start_end_date: 26th August 2016 to 17th September 2016
+recentNotebooks:
+  - name: ODC Challenge
+    link: 'http://mybinder.org/repo/neka7449/odc-challenge'
 ---
 
 <div class="row">
-  <div class="col-md-12"><div class="alert alert-info" role="alert">
+  <div class="col-md-12 col-sm-12 col-xs-12"><div class="alert alert-info" role="alert">
       We are pleased to announce the <b style="text-decoration:underline"><a href="/competitions/oracle/">Oracle Audience Competition sponsored by Oracle Data Cloud! Click here for details.</a></b>
     </div></div>
 </div>
 
 <div class="row">
-  <div class="col-md-12">
+  <div class="col-md-12 col-sm-12 col-xs-12">
     <div class="jumbotron" style="padding-top:10px;padding-bottom:10px;">
       <p>
         The Colorado Data Science Team
@@ -46,13 +49,13 @@ carousel:
 
 <div class="row" style="padding-bottom: 1em">
   <!-- Wrapper for slides -->
-  <div class="col-md-4 text-justify">
+  <div class="col-md-4 col-sm-4 col-xs-4 text-justify">
     <h4>Meet a Data Scientist Series</h4>
 
     <p>Every week, we begin our team meeting by hearing from a practicing data scientist or data science researcher.</p>
     If you are a data scientist (broadly construed) and believe a presentation on your current work would be a good fit for the Colorado Data Science Team, please reach out to the leadership team at codata@colorado.edu
   </div>
-  <div class="col-md-4">
+  <div class="col-md-4 col-sm-4 col-xs-4">
     <center><h4>Competitions</h4></center>
   <div class="carousel-inner" role="listbox">
     {% if page.carousel %}
@@ -85,35 +88,44 @@ carousel:
   </a>
   </div>
 
-  <div class="col-md-4">
-    <center>
+<div class="col-md-4 col-sm-4 col-xs-4">
+  <center>
+    <center><h4>Recent Notebooks</h4></center>
+    
+    {% if page.recentNotebooks %}
+      {% for info in page.recentNotebooks %}
+      <ul class="pager">
+        <li class="active"><a href="{{ info.link }}"> {{info.name}} </a></li>
+      </ul>
+      {% endfor %}
+    {% endif %}
     <!-- Begin MailChimp Signup Form -->
-  <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-  <style type="text/css">
-  	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-  	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-  	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-  </style>
-  <div id="mc_embed_signup">
-  <form action="//gitub.us14.list-manage.com/subscribe/post?u=bdb5f790dc5db01b13ba0b7e5&amp;id=acfbcbddec" method=" post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"   novalidate>
-      <div id="mc_embed_signup_scroll">
-  	<label for="mce-EMAIL">Subscribe to our mailing list</label>
-  	<input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="email address"  required>
-      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="  b_bdb5f790dc5db01b13ba0b7e5_acfbcbddec" tabindex="-1" value=""></div>
-      </br>
-      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class=" btn btn-primary btn-lg btn-block"></div>
-      </div>
-  </form>
-  </div>
-    </center>
-  </div>
+    <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//gitub.us14.list-manage.com/subscribe/post?u=bdb5f790dc5db01b13ba0b7e5&amp;id=acfbcbddec" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+  <center><label for="mce-EMAIL">Subscribe</label></center>
+  <input type="email" value="" name="EMAIL" class="form-control"  id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bdb5f790dc5db01b13ba0b7e5_acfbcbddec" tabindex="-1" value=""></div>
 
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-lg btn-block"></div>
+    </div>
+</form>
+</div>
+</center>
+<!--End mc_embed_signup-->
 </div>
 
 
 
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <center><h3>Recent News</h3></center>
     <!-- <div class="col-sm-4">
@@ -122,31 +134,38 @@ carousel:
     <div class="col-sm-4">
       One of three columns
     </div> -->
-    <div class="col-md-12">
+    <div class="col-md-12 col-sm-12 col-xs-12">
     
     {% for post in paginator.posts limit:6 %}
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if thecycle == 'even' %}
-      <div class="row">
+    {% if thecycle == 'odd' %}
+    <div class="row">
     {% endif %}
     <div class="col-md-6">
-    <div class="panel panel-default">
+    <div class="panel panel-default" style="width: 100%;">
         <div class="panel-heading">
             <h3 class="panel-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
         </div>
-        <div class="panel-body col-md-height">
+        <div class="panel-body">
           <div class="row">
           {% if post.image %}
             <center><img alt="{{ post.title }}" src="/images/speakers/{{post.image}}" style=" height:100px;width:100px;padding: 1em"  class="pull-left img-circle"></center>
             <div class="text-justify" style="padding-left: 1em;padding-right: 1em">{{ post.excerpt }}</div>
             {% else %}
-            <div class="col-md-12 text-justify" style="padding-left: 1em;padding-right: 1em">{{ post.excerpt }}</div>
+            <div class="col-md-12 col-sm-12 col-xs-12 text-justify" style="padding-left: 1em;padding-right: 1em"> {{ post.excerpt }} 
+            </div>
+
           {% endif %}
           </div>
           
           
         </div>
-        <div class="panel-footer">Posted on {{ post.date | date: "%b %-d, %Y" }}
+        <div class="panel-footer">Posted on {{ post.date | date: "%b %-d, %Y" }} 
+          {% if post.notebook %}
+          {% for info in post.notebook %}
+           | <a href="{{ info.link }}"> {{info.name}} </a>
+          {% endfor %}
+          {% endif %}
             <div class="pull-right"><a href="{{ post.url | prepend: site.baseurl }}">Read More</a></div>
         </div>
     </div>

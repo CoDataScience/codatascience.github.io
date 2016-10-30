@@ -5,6 +5,9 @@ description: Weekly Meeting 10/18/2016
 date:   2016-10-18 00:00:00 -0000
 categories: meeting, weekly, machine learning, oracle, competition
 excerpt: Team member Nehal Kamat gave a short tutorial on how to run a simple model on our Oracle data with Vowpal Wabbit, and Team Captain Pedro Rodriguez showed some Apache Spark code useful in dealing with large amounts of those data.
+notebook:
+  - name: ODC Challenge
+    link: 'http://mybinder.org/repo/neka7449/odc-challenge'
 ---
 
 ## Agenda
