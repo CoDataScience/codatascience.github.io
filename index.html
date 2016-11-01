@@ -147,7 +147,12 @@ recentNotebooks:
         <div class="panel-heading">
             <h3 class="panel-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
         </div>
+        {% if post.image %}
         <div class="panel-body">
+        {% else %}
+        <div class="panel-body" style="min-height: 130px">
+        {% endif %}
+
           <div class="row">
           {% if post.image %}
             <center><img alt="{{ post.title }}" src="/images/speakers/{{post.image}}" style=" height:100px;width:100px;padding: 1em"  class="pull-left img-circle"></center>
