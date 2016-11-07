@@ -5,7 +5,7 @@ description: Weekly Meeting 11/1/2016
 date:   2016-11-1 00:00:00 -0000
 categories: meeting, weekly, machine learning
 excerpt: Alvin Grissom, a final year PhD student at CU Boulder, talked about challenges in machine translation from Japanese or German to English such as verb prediction. Ling Liu also presented a Jupyter notebook on using the deep learning library Torch
-image: alvin_grissom.jpeg
+image: alvin_grissom.jpg
 ---
 
 ## Agenda
