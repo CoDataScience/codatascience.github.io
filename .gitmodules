@@ -3,4 +3,4 @@
 	url = https://github.com/CoDataScience/rate-my-professor.git
 [submodule "_notebooks/repositories/tutorials"]
 	path = _notebooks/repositories/tutorials
-	url = git@github.com:CoDataScience/tutorials.git
+	url = https://github.com/CoDataScience/tutorials.git
