@@ -1,3 +1,6 @@
 [submodule "_notebooks/repositories/rate-my-professor"]
 	path = _notebooks/repositories/rate-my-professor
 	url = https://github.com/CoDataScience/rate-my-professor.git
+[submodule "_notebooks/repositories/Scikit-Intro"]
+	path = _notebooks/repositories/Scikit-Intro
+	url = git@github.com:Karthik-Kannan/Scikit-Intro.git
