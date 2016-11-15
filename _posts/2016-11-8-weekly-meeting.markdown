@@ -5,7 +5,7 @@ description: Weekly Meeting 11/08/2016
 date:   2016-11-08 00:00:00 -0000
 categories: meeting, weekly, machine learning
 excerpt: Caleb Phillips, Data Scientist at National Renewable Energy Laboratories(NREL) spoke to us about a few projects he's worked on at NREL, involving big-data and geospatial analysis.
-image: caleb_phillips.png
+image: caleb_phillips.jpg
 ---
 
 ## Agenda
