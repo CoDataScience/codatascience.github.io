@@ -24,13 +24,15 @@ recentNotebooks:
 ---
 
 <div class="row">
-  <div class="col-md-12 col-sm-12 col-xs-12"><div class="alert alert-info" role="alert">
-      We are pleased to announce the <b style="text-decoration:underline"><a href="/competitions/oracle/">Oracle Audience Competition sponsored by Oracle Data Cloud! Click here for details.</a></b>
-    </div></div>
+  <div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="alert alert-warning" role="alert">
+      Only one more day left to compete in the <b style="text-decoration:underline"><a href="/competitions/oracle/">Oracle Data Cloud Audience Challenge</a>!</b> For submission instructions <a href="https://docs.google.com/document/d/1_BfWiYykA3P1nGDfDlbQYdWZFiA4eZADbHl6F9w6mhU/edit?usp=sharing" target="_blank">Click Here</a>
+    </div>
+  </div>
 </div>
 
 <div class="row">
-  <div class="col-md-12 col-sm-12 col-xs-12">
+  <div class="col-md-8 col-sm-8 col-xs-8">
     <div class="jumbotron" style="padding-top:10px;padding-bottom:10px;">
       <p>
         The Colorado Data Science Team
@@ -41,44 +43,62 @@ recentNotebooks:
       </p>
     </div>
   </div>
+  <div class="col-md-4 col-sm-4 col-xs-4">
+    <!-- Begin MailChimp Signup Form -->
+    <!-- Begin MailChimp Signup Form -->
+    <h4 class="text-center">Subscribe to the Mailing List</h4>
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+      /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+    <form action="//gitub.us14.list-manage.com/subscribe/post?u=bdb5f790dc5db01b13ba0b7e5&amp;id=acfbcbddec" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+        <input type="email" value="" name="EMAIL" class="form-control"  id="mce-EMAIL" placeholder="email address" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bdb5f790dc5db01b13ba0b7e5_acfbcbddec" tabindex="-1" value=""></div>
+
+        <div class="clear"><input type="submit" value="Subscribe to Mailing List" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-block" style="margin-top:5px; background-color:#d0b87c"></div>
+      </div>
+    </form>
+    </div>
+    <!--End mc_embed_signup-->
+    <h4 class="text-center">Join the Team: <a href="https://goo.gl/forms/CAImmqrVpznRd8Ni2" target="_blank" class="cu-link">Signup Form</a></h4>
+  </div>
 </div>
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-</div>
-  <!-- Indicators -->
-  <!-- <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol> -->
+<hr style="height:8px;border:none;color:#eee;background-color:#eee;">
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel"></div>
 
 <div class="row" style="padding-bottom: 1em">
   <!-- Wrapper for slides -->
-  <div class="col-md-4 col-sm-4 col-xs-4 text-justify">
-    <h4>Meet a Data Scientist Series</h4>
-
-    <p>Every week, we begin our team meeting by hearing from a practicing data scientist or data science researcher.</p>
-    If you are a data scientist (broadly construed) and believe a presentation on your current work would be a good fit for the Colorado Data Science Team, please reach out to the leadership team at codata@colorado.edu
+  <div class="col-md-5 col-sm-5 col-xs-5 text-justify">
+    <h4>Weekly Meeting Structure</h4>
+    <ul>
+      <li>Practicing academic or industry data scientists give 10-15 minute talks</li>
+      <li>Students give 5 minute tutorials and presentations</li>
+      <li>Team discusses approaches to current competitions</li>
+    </ul>
   </div>
   <div class="col-md-4 col-sm-4 col-xs-4">
-    <center><h4>Competitions</h4></center>
+    <h4 class="text-center">Competitions</h4>
   <div class="carousel-inner" role="listbox">
     {% if page.carousel %}
     {% for info in page.carousel %}
     {% if forloop.first == true %}
-        <div class="item active">
+    <div class="item active">
     {% else %}
-        <div class="item">
+    <div class="item">
     {% endif %}
-        <div class="header bg-primary" style="padding-left: 1em"> {{ info.start_end_date }} </div>
+        <div class="header bg-primary" style="padding-left: 1em">{{ info.start_end_date }}</div>
         <a href="{{info.link}}">
-        <center><img src="{{ info.image }}" alt="{{ info.alt }}" width="100%" height="100em"></center>
+          <center><img src="{{ info.image }}" alt="{{ info.alt }}" width="100%" height="100em"></center>
         </a>
-        <div class="header row bg-danger"><center> {{info.competition}} competition : <a href="{{info.link}}">{{  info.caption }}</a></center></div>
-        <!-- <div class="carousel-caption">
-        <h3>{{ info.caption }}</h3>
-      </div> -->
-        </div>
+        <div class="header row bg-danger"><center>{{info.competition}} competition : <a href="{{info.link}}">{{ info.caption }}</a></center></div>
+    </div>
     {% endfor %}
     {% endif %}
   </div>
@@ -93,43 +113,21 @@ recentNotebooks:
   </a>
   </div>
 
-<div class="col-md-4 col-sm-4 col-xs-4">
-  <center>
-    <center><h4>Featured Notebooks</h4></center>
+<div class="col-md34 col-sm-3 col-xs-3">
+  <div class="list-group">
+    <h4 class="text-center">Featured Notebooks</h4>
     {% if page.recentNotebooks %}
       {% for info in page.recentNotebooks %}
-      <ul class="pager">
-        <li class="active"><a href="{{ info.link }}"> {{info.name}} </a></li>
-      </ul>
+      <a class="list-group-item cu-link" href="{{ info.link }}">{{info.name}}</a>
       {% endfor %}
     {% endif %}
-    <!-- Begin MailChimp Signup Form -->
-    <!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="//gitub.us14.list-manage.com/subscribe/post?u=bdb5f790dc5db01b13ba0b7e5&amp;id=acfbcbddec" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-  <center><label for="mce-EMAIL">Subscribe</label></center>
-  <input type="email" value="" name="EMAIL" class="form-control"  id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bdb5f790dc5db01b13ba0b7e5_acfbcbddec" tabindex="-1" value=""></div>
-
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-lg btn-block"></div>
-    </div>
-</form>
-</div>
-</center>
-<!--End mc_embed_signup-->
+  </div>
 </div>
 
 
 
 <div class="container-fluid">
+<hr style="height:8px;border:none;color:#eee;background-color:#eee;">
   <div class="row">
     <center><h3>Recent News</h3></center>
     <!-- <div class="col-sm-4">
@@ -139,45 +137,41 @@ recentNotebooks:
       One of three columns
     </div> -->
     <div class="col-md-12 col-sm-12 col-xs-12">
-    
+
     {% for post in paginator.posts limit:6 %}
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
     <div class="row">
     {% endif %}
     <div class="col-md-6">
-    <div class="panel panel-default" style="width: 100%;">
-        <div class="panel-heading">
-            <h3 class="panel-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        </div>
-        {% if post.image %}
-        <div class="panel-body">
-        {% else %}
-        <div class="panel-body" style="min-height: 130px">
-        {% endif %}
-
-          <div class="row">
-          {% if post.image %}
-            <center><img alt="{{ post.title }}" src="/images/speakers/{{post.image}}" style=" height:100px;width:100px;padding: 1em"  class="pull-left img-circle"></center>
-            <div class="text-justify" style="padding-left: 1em;padding-right: 1em">{{ post.excerpt }}</div>
-            {% else %}
-            <div class="col-md-12 col-sm-12 col-xs-12 text-justify" style="padding-left: 1em;padding-right: 1em"> {{ post.excerpt }} 
-            </div>
-
-          {% endif %}
+      <div class="panel panel-default" style="width: 100%;">
+          <div class="panel-heading">
+              <h3 class="panel-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
           </div>
-          
-          
-        </div>
-        <div class="panel-footer">Posted on {{ post.date | date: "%b %-d, %Y" }} 
-          {% if post.notebook %}
-          {% for info in post.notebook %}
-           | <a href="{{ info.link }}"> {{info.name}} </a>
-          {% endfor %}
+          {% if post.image %}
+          <div class="panel-body">
+          {% else %}
+          <div class="panel-body" style="min-height: 130px">
           {% endif %}
-            <div class="pull-right"><a href="{{ post.url | prepend: site.baseurl }}">Read More</a></div>
-        </div>
-    </div>
+
+            <div class="row">
+            {% if post.image %}
+              <center><img alt="{{ post.title }}" src="/images/speakers/{{post.image}}" style=" height:100px;width:100px;padding: 1em"  class="pull-left img-circle"></center>
+              <div class="text-justify" style="padding-left: 1em;padding-right: 1em">{{ post.excerpt }}</div>
+              {% else %}
+              <div class="col-md-12 col-sm-12 col-xs-12 text-justify" style="padding-left: 1em;padding-right: 1em">{{ post.excerpt }}</div>
+            {% endif %}
+            </div>
+          </div>
+          <div class="panel-footer">Posted on {{ post.date | date: "%b %-d, %Y" }} 
+            {% if post.notebook %}
+            {% for info in post.notebook %}
+             | <a href="{{ info.link }}">{{ info.name }}</a>
+            {% endfor %}
+            {% endif %}
+              <div class="pull-right"><a href="{{ post.url | prepend: site.baseurl }}">Read More</a></div>
+          </div>
+      </div>
     </div>
     {% if thecycle == 'even' %}
       </div>
@@ -189,48 +183,24 @@ recentNotebooks:
 </div>
 
 
-
-
-<!-- <h3 class="page-heading">Recent News</h3>
-<ul class="post-list">
-{% for post in paginator.posts limit:4 %}
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        </div>
-        <div class="panel-body">
-          <div>{{ post.excerpt }}</div>
-          <div><a href="{{ post.url | prepend: site.baseurl }}">Read More</a></div>
-        </div>
-        <div class="panel-footer">Posted on {{ post.date | date: "%b %-d, %Y" }}</div>
-    </div>
-{% endfor %}
-</ul>
- -->
-
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-   <p class="prevLink"> <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer Posts</a> </p>
-  {% else %}
-   <p class="prevLink">  <span>&laquo; Newer Posts</span> </p>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+<nav aria-label="Page navigation">
+  <ul class="pagination">
+    {% if paginator.previous_page %}
+    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
     {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <p class="nextLink"> <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &raquo;</a> </p>
-  {% else %}
-    <p class="nextLink"> <span>Older Posts &raquo;</span> </p>
-  {% endif %}
-</div>
+    {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+    <li class="active"><a href="#">{{ page }}</a></li>
+    {% elsif page == 1 %}
+    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+    {% else %}
+    <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+    {% endif %}
+    {% endfor %}
+    {% if paginator.next_page %}
+    <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+    {% endif %}
+  </ul>
+</nav>
 {% endif %}
-</div>
