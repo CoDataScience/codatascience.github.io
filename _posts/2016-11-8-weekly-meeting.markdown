@@ -11,10 +11,10 @@ image: caleb_phillips.jpg
 ## Agenda
 
 * Meet a data scientist: Caleb Phillips, a Data Scientist at National Renewable Energy Laboratories(NREL) spoke about a couple of projects he's worked on at NREL and Non-profits, including - Understanding super computer energy use; Rooftop photovoltaic potential, Identifying high thoughput materials for photovoltaics and The Falling Fruit project to map unused food resources.
-   
+
 * Presentation from team member, James Foster on how to get started with The Oracle Data Cloud competition ([notebook here](http://codata.colorado.edu/notebooks/tutorials/odc_vowpalwabbit_james_foster/))
 
-* Presentation from team member, Davis Yoshida on Tensflow ([notebook here](http://codata.colorado.edu/notebooks/tutorials/tensorflow_example_davis_yoshida/))
+* Presentation from team member, Davis Yoshida on Tensorflow ([notebook here](http://codata.colorado.edu/notebooks/tutorials/tensorflow_example_davis_yoshida/))
 
 * Presentation from team member, Nick Trierweiler on the MNIST challenge ([notebook here](http://codata.colorado.edu/notebooks/tutorials/tensorflow_mnist_nick_trierweiler/))
 
