@@ -6,7 +6,7 @@ title: App This Competition
 
 ## Introduction and Quickstart Instructions
 
-The first step is to download the tarball at [this link](leaderboard.entilzha.io/static/downloads/appthis.tgz) and to extract it using the Unix command `tar -xzvf appthis.tgz`, which will provide you with an `appthis` directory in the directory in which you ran the `tar` command.
+The first step is to download the tarball at [this link](http://leaderboard.entilzha.io/static/downloads/appthis.tgz) and to extract it using the Unix command `tar -xzvf appthis.tgz`, which will provide you with an `appthis` directory in the directory in which you ran the `tar` command.
 
 The `appthis` directory represents the simplest setup we could provide to help you be successful
 in this competition. Below is a quickstart list of steps to get your first model up and
