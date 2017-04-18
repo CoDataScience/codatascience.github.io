@@ -77,4 +77,8 @@ conversion probabilities by applying the AUC (or, more accurately, the AUROC) me
 `train-and_score_model.py`.
 
 
+### The Rest of the Training Data
+
+We are still in the process of documenting the contents and structure of the rest of the training data, but for those intrepid people who want to dig around in that data, [here's the link to the S3 bucket](https://s3-us-west-2.amazonaws.com/cub-competition-data/). We will update this section soon with better documentation on how best to effectively access those data.
+
 That's it! Happy modeling!
