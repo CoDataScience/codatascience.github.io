@@ -81,4 +81,9 @@ conversion probabilities by applying the AUC (or, more accurately, the AUROC) me
 
 We are still in the process of documenting the contents and structure of the rest of the training data, but for those intrepid people who want to dig around in those data, [here's the link to the S3 bucket](https://s3-us-west-2.amazonaws.com/cub-competition-data/). We will update this section soon with better documentation on how best to effectively access those data.
 
+
+### All Validation Data
+
+You can find the validation data on which you should run your fitted model [here](http://leaderboard.entilzha.io/static/downloads/all_test_data.tgz). It comes as a tarball, and the tarball is ~750MB. Use the data to create a predictions file as a CSV and upload it on the leaderboard app [here](https://leaderboard.entilzha.io/competition/AppThis/). The leaderboard app will take care of the rest.
+
 That's it! Happy modeling!
