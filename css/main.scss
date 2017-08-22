@@ -126,3 +126,19 @@ html, body {
     height: 125px;
   }
 }
+
+.carousel {
+    max-height: 310px;
+    overflow: hidden;
+
+    .item img {
+      width: 100%;
+      height: auto;
+    }
+}
+
+// .peopleCarouselImg img {
+//   width: auto;
+//   height: 375px;
+//   max-height: 375px;
+// }
