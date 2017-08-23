@@ -53,9 +53,9 @@ permalink: /about/
   <div class="pull-left">
     <ul>
 
-      <li>2nd year PhD student advised by Jordan Boyd-Graber in large-scale machine learning and <a href="http://www.umiacs.umd.edu/~jbg/projects/IIS-1320538.html" target="_blank">question answering</a></li>
-      <li>Systems minded data scientist</li>
-      <li>Academic or Industry alumni of UC Berkeley Computer Science, <a href="http://amplab.cs.berkeley.edu" target="_blank">AMPLab</a>, <a href="http://trulia.com" target="_blank">Trulia/Zillow</a>, and Oracle Data Cloud</li>
+      <li>3rd year PhD student advised by Jordan Boyd-Graber in machine learning, natural language processing, and specifically <a href="http://www.umiacs.umd.edu/~jbg/projects/IIS-1320538.html" target="_blank">question answering</a></li>
+      <li>Data scientist and research scientist experienced in software and data engineering</li>
+      <li>Academic or Industry alumni of UC Berkeley Computer Science, <a href="http://amplab.cs.berkeley.edu" target="_blank">AMPLab</a>, <a href="http://trulia.com" target="_blank">Trulia/Zillow</a>, Oracle Data Cloud, and <a href="http://riotgames.com" target="_blank">Riot Games</a></li>
       <li>Website at <a href="https://pedrorodriguez.io" target="_blank">pedrorodriguez.io</a>, Code at <a href="https://github.com/EntilZha" target="_blank">github.com/EntilZha</a>, <a href="https://www.linkedin.com/in/pedrorodriguezscience" target="_blank">LinkedIn</a></li>
       <li>Avid Downhill/Telemark/Backcountry skier and rock climber</li>
 
