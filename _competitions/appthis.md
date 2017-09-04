@@ -30,7 +30,11 @@ As described above, models built by CODATA team members receive as input a serie
 The CODATA leadership team has developed its own leaderboard web application, which can be found [here](https://leaderboard.entilzha.io/). It's still pretty rough around the edges, so in order to compete you must first register for an account on the site, then ask via Slack or email either `brad` (bradley.gordon@colorado.edu) or `pedro` (p.rodriguez@colorado.edu) to add your user to a team (you can have a team of only one member). Once you are on a team, you can visit the AppThis competition leaderboard [page](https://leaderboard.entilzha.io/competition/appthis/) to make a submission.
 
 ### Where Are the Training Data?
-[Click here](http://leaderboard.entilzha.io/static/downloads/all_training_events.tgz) to download all of the training data (~750MB).
+The training data are at the following S3 link: https://s3-us-west-2.amazonaws.com/cub-competition-data, in the folder entitled 2017. The README at the top level of the S3 bucket contains instructions on how to interpret the data. While it is possible to gather all of the data in one place, they are currently spread among many different folders/files. We are currently exploring easier ways to present these data, but by all means feel free to explore those data and build models to train on them.
+
+### Where are the Test Data?
+[Click here](http://leaderboard.entilzha.io/static/downloads/all_training_events.tgz) to download all of the test data (~750MB). Once you have fit a model using the training events discussed in the section above, use these data to prepare
+your submission file.
 
 ### Any Hints?
 Keep an eye on this page for more updates regarding the competition. The leadership team will post throughout the summer some notebooks on how to approach the competition. This will hopefully help members with less experience than others mount a worthwhile challenge.
