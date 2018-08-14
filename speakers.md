@@ -15,7 +15,7 @@ title: Meet a Data Scientist
 
 If you are a data scientist (broadly construed) and believe a presentation on your current work would be a good fit for the Colorado Data Science Team, please reach out to the leadership team at codata@colorado.edu.
 
-
+<!--
 <div class="pull-left">
 {% for speaker in site.speakers %}
 	<div class="panel panel-default">
@@ -31,3 +31,4 @@ If you are a data scientist (broadly construed) and believe a presentation on yo
    	</div>
 {% endfor %}
 </div>
+-->
