@@ -76,7 +76,7 @@ permalink: /about/
       <li>Research focuses on malaria genomics and epidemiology, computational social science, and mathematics for inference and modeling of complex networks.</li>
       <li>Was previously a postdoc at the Santa Fe Institute and Havard School of Public Health.</li>
       <li>Completed a PhD in Applied Mathematics at CU Boulder.</li>
-      <li><a href="http://danlarremore.com/" target="_blank">Website</a>
+      <li><a href="http://danlarremore.com/" target="_blank">Website</a></li>
     </ul>
   </div>
   <div class="clearfix"></div>
