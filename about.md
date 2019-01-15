@@ -64,6 +64,23 @@ permalink: /about/
   </div>
   <div class="clearfix"></div>
 </div>
+### Faculty Advisor: Daniel Larremore
+
+<div>
+  <div class="pull-left">
+    <img alt="Daniel Larremore" src="/images/dan.jpg" style="height:100px;width:100px">
+  </div>
+  <div class="pull-left">
+    <ul>
+      <li>Assistant Professor in Computer Science and in the BioFrontiers Institute.</li>
+      <li>Research focuses on malaria genomics and epidemiology, computational social science, and mathematics for inference and modeling of complex networks.</li>
+      <li>Was previously a postdoc at the Santa Fe Institute and Havard School of Public Health.</li>
+      <li>Completed a PhD in Applied Mathematics at CU Boulder.</li>
+      <li><a href="http://danlarremore.com/" target="_blank">Website</a>
+    </ul>
+  </div>
+  <div class="clearfix"></div>
+</div>
 
 ### Faculty Advisor: Rafael Frongillo
 
