@@ -3,6 +3,23 @@ layout: page
 title: Leadership Team
 permalink: /about/
 ---
+### President: Ahmed Al Hasani
+<div>
+<div class="pull-left">
+<img alt="Ahmed Al Hasani" src="/images/ahmed.jpg" style="height:100px;width:100px">
+</div>
+<div class="pull-left">
+
+<ul>
+<li> Graduate student (MS) in computer science at CU Boulder </li>
+<li> Completed BS, first MS degree in Civil Engineering from CU Boulder </li>
+<li> Data scientist intern at Seagate, working with the analytics team </li>
+<li> Working with Prof. Michael Paul on building an Epidemiology Model </li>
+</ul>
+
+</div>
+<div class="clearfix"></div>
+</div>
 
 ### Co-President: Brad Gordon
 
