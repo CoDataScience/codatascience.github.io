@@ -31,7 +31,7 @@ permalink: /about/
   <div class="pull-left">
     <ul>
       <li>Assistant professor of computer science at CU Boulder, and affiliate faculty in applied math.</li>
-      <li>Research is at the interface of theoretical machine learning and economics,encompassing topics such as information elicitation, crowdsourcing, and markets. </li>
+      <li>Research is at the interface of theoretical machine learning and economics, including information elicitation, crowdsourcing, and markets. </li>
       <li>Was previously a postdoc at MSR-NYC and then at Harvard's CRCS with Yiling Chen and Yaron Singer in the EconCS group</li>
       <li>Completed Ph.D. in theoretical computer science at Berkeley, advised by Christos Papadimitriou and funded by the NDSEG Fellowship</li>
       <li><a href="http://www.cs.colorado.edu/~raf/" target="_blank">Website</a> , <a href="https://www.linkedin.com/in/rafael-frongillo-5289a65" target="_blank">LinkedIn</a></li>
